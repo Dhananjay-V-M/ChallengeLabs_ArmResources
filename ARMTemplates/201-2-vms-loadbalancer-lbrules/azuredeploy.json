@@ -188,7 +188,7 @@
               ],
               "loadBalancerInboundNatRules": [
                 {
-                  "id": "[concat(variables('lbID'),'/inboundNatRules/RDP-VM', copyindex(1))]"
+                  "id": "[concat(variables('lbID'),'/inboundNatRules/RDP-VM1', copyindex(1))]"
                 }
               ]
             }
